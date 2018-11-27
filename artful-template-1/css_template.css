@@ -1,10 +1,60 @@
 body {
   font-family: "futura";
+  display: flex;
+
+  }
+
 }
 
 /* Add a black background color to the top navigation */
 .navbar {
   overflow: hidden;
+}
+
+/*.background {
+background-image: url("Edvard_Munch_-_Kiss_by_the_window_(1892).jpg"), url("Les_NymphéasMonet.jpg");
+background-repeat: no-repeat, no-repeat;
+background-position: right, left;
+background-size: 50%, 50%;
+}*/
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    overflow-x: hidden;
+}
+
+.left {
+    left: 0;
+  }
+
+.right {
+    right: 0;
+}
+
+.pointer {
+  cursor:pointer;
+  position: relative;
+  display: block;
+}
+
+.hover {
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+    opacity: 0;
+    -webkit-transition: opacity 0.6s;
+    -moz-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+     vertical-align:middle;
+     line-height:200px;
 }
 
 /* Style the links inside the navigation bar */
