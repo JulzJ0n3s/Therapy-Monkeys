@@ -29,3 +29,13 @@ body {
     background-color: black;
     color: white;
 }
+
+.header-image {
+  height: 200px;
+}
+
+.text-section {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+}
