@@ -1,9 +1,5 @@
 body {
   font-family: "futura";
-  display: flex;
-
-  }
-
 }
 
 /* Style the links inside the navigation bar */
@@ -39,30 +35,17 @@ body {
   padding: 30px;
 }
 
-.jumbotron h1,
-.jumbotron .h1 {
-  font-size: 63px;
+.info {
+  text-align: center;
   color: white;
+  padding: 30px;
 }
 
-p {
-  font-family: "futura";
-  display: flex;
-  color: white;
-  }
-
-ul {
-    font-family: "futura";
-    display: flex;
-    color: white;
-}
-
-h1 {
-    font-family: "futura";
-    display: flex;
-    color: white;
-    }
-
-.container {
-
+.buttonBlock {
+  padding-left: 47%;
+  padding-top: 20px;
+ padding-bottom: 20px;
+ background-color: white;
+ 
+  
 }
