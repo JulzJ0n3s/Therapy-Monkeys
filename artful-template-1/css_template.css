@@ -1,10 +1,9 @@
 body {
   font-family: "futura";
+  display: flex;
+
   }
 
-/* Add a black background color to the top navigation */
-.navbar {
-  overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
@@ -38,4 +37,32 @@ body {
   text-align: center;
   background-color: white;
   padding: 30px;
+}
+
+.jumbotron h1,
+.jumbotron .h1 {
+  font-size: 63px;
+  color: white;
+}
+
+p {
+  font-family: "futura";
+  display: flex;
+  color: white;
+  }
+
+ul {
+    font-family: "futura";
+    display: flex;
+    color: white;
+}
+
+h1 {
+    font-family: "futura";
+    display: flex;
+    color: white;
+    }
+
+.container {
+
 }
