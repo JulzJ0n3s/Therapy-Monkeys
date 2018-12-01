@@ -1,10 +1,9 @@
 body {
   font-family: "futura";
+  display: flex;
+
   }
 
-/* Add a black background color to the top navigation */
-.navbar {
-  overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
