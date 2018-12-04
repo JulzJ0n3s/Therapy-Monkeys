@@ -22,6 +22,7 @@
  ******************************************************************************/
 
 // if you want to store your email server-side (hidden), uncomment the next line
+alert ("Hello")
 var TO_ADDRESS = "miss.julia.m.jones@gmail.com";
 
 // spit out all the keys/values from the form in HTML for email
