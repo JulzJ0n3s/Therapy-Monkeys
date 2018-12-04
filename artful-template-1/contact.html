@@ -68,7 +68,7 @@ input[type=submit]:hover {
 </div>
 
 <div class="container">
-  <form type="text" name="contact_form">
+  <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxsV4OhjVtKm8DQvw-BAaEIX_IqyVGjuJaiEPtkn19hLEwl7A/exec">
 
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -82,12 +82,18 @@ input[type=submit]:hover {
     <input id="submit_button" type="submit">
   </form>
 </div>
- <script>
+<script src="contact_form.js">
+</script>
+
+<!-- <script>
  $("#submit_button").click(function(event) {
-  var form () = $("#firstname","#email","#subject").val();
-  var link = "mailto:miss.julia.m.jones@gmail.com"});
+  var form () = $("submit");
+  var link = "mailto:miss.julia.m.jones@gmail.com";
+  var alert ("Thanks for your contact details it has now been sent through");
+}
+);
   console log (link)
- </script>
+ </script> -->
 
 </body>
 </html>
