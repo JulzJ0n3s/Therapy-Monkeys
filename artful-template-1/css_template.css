@@ -4,6 +4,7 @@ body {
 
 /* Style the links inside the navigation bar */
 .navbar a {
+  position: top;
   float: left;
   font-size: 18px;
     color: white;
@@ -42,10 +43,33 @@ body {
 }
 
 .buttonBlock {
-  padding-left: 47%;
-  padding-top: 20px;
- padding-bottom: 20px;
- background-color: white;
- 
-  
+   padding-left: 47%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background-color: white;
+
+}
+
+h1,h3 {
+  text-align: left;
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 520px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: black; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 150px;
+  }
+.justfied {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 55px;
+  font-style: oblique;
+
 }
